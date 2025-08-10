@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced HTML Practices</title>
+    </head>
+    <body>
+        <header>
+            <h1>Grading System</h1>
+            <nav>
+                <a href="lesson">Learn with Us</a>
+            </nav>
+        </header>
+        <dl>
+            <dt>Grade A</dt>
+            <dd>Exceptional work, exceeds expectations.</dd>
+            <dt>Grade B</dt>
+            <dd>Meets requirements well, minor issues.</dd>
+            <dt>Grade C</dt>
+            <dd> Adequate, but with noticeable weaknesses.</dd>
+            <dt>Grade D</dt>
+            <dd>Major gaps in content or execution.</dd>
+            <dt>Grade E</dt>
+            <dd>Does not meet basic requirements.</dd>
+        </dl>
+            
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrg547o9NMpaPyqFdYO7fZe2p0mpHiOXH1WA&s" alt="Grading System">
+        <h2>Tabular Descrption of the Grading</h2>
+        <table border="2">
+  <thead>
+    <tr>
+      <th>Grade</th>
+      <th>Range</th>
+      <th>Descrption</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>90-100</td>
+      <td>Excellent</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>80-89</td>
+      <td>Good</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>70-79</td>
+      <td>Average</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>60-69</td>
+      <td>Poor</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>Below 69</td>
+      <td>Fail</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Student Submission Form</h2>
+    <form action="/action_page.php" method="post" autocomplete="on">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+
+        <label for="zip">ZIP Code:</label>
+        <input type="text" id="zip" name="zip" placeholder="12345" pattern="[0-9]{5}" title="Enter a 5-digit ZIP code" required><br><br>
+
+        <label for="grade">Assigned Grade:</label>
+        <input type="text" id="grade" name="grade" value="Pending" readonly><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <p>&copy; 2025 Advanced HTML Practices</p>
+    </footer>
+
+
+
+        
+    </body>
+</html>
